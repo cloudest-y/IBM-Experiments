@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentlist SYSTEM "hw.dtd">
+<studentlist>
+	<student major= "Marketing">
+		<name>Lee</name>
+		<age>20</age>
+		<id>102</id>
+	</student>
+	<student major= "Finance">
+		<name>Tom</name>
+		<age>21</age>
+		<id>105</id>
+	</student>
+	<student major= "Accounting">
+		<name>Susan</name>
+		<age>19</age>
+		<id>107</id>
+	</student>
+	<student major= "Tourism">
+		<name>Peter</name>
+		<age>22</age>
+		<id>321</id>
+	</student>
+</studentlist>

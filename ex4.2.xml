@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Administrator/Desktop/IBM%e5%ae%9e%e9%aa%8c/EX4.2.xsd">
+	<Bname>标准日本语</Bname>
+	<Publisher>
+		<Pname>人民教育出版社</Pname>
+		<Address>北京市海淀区中关村大街17号</Address>
+	</Publisher>
+</Book>
+

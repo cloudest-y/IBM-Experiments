@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="书架" type="btype">
+	<xs:complexType name="btype">
+		<xs:sequence>
+			<xs:element name="书名" type="xs:string"/>
+			<xs:element name="作者" type="atype"/>
+			<xs:element name="价格" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="atype">
+		<xs:sequence>
+			<xs:element name="姓名" type="xs:string"/>
+			<xs:element name="地址" type="xs:string"/>
+			<xs:element name="E-mail" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT studentlist (student)+>
+<!ELEMENT student (name,age,id)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST student major (Marketing|Finance|Accounting|Tourism) #REQUIRED>
